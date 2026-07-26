@@ -1,0 +1,612 @@
+[
+  {
+    "id": "",
+    "name": "아마가세 무유",
+    "debutYear": 2022,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/channel/UCAQDFeCTVdx90GtwohwjHzQ",
+    "youtubeCandidates": [],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%95%84%EB%A7%88%EA%B0%80%EC%84%B8%20%EB%AC%B4%EC%9C%A0"
+  },
+  {
+    "id": "",
+    "name": "우미세 요츠하",
+    "debutYear": 2022,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/channel/UCtHY-tP0dyykhTRMmnfPs_g",
+    "youtubeCandidates": [],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%9A%B0%EB%AF%B8%EC%84%B8%20%EC%9A%94%EC%B8%A0%ED%95%98"
+  },
+  {
+    "id": "",
+    "name": "폰토 네이",
+    "debutYear": 2022,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/channel/UCe22Bcwd_GCpTjLxn83zl7A",
+    "youtubeCandidates": [],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%ED%8F%B0%ED%86%A0%20%EB%84%A4%EC%9D%B4"
+  },
+  {
+    "id": "",
+    "name": "햐쿠만텐바라 살로메",
+    "debutYear": 2022,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@hyakumantenbaraSalome",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@hyakumantenbaraSalome",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%ED%96%90%EC%BF%A0%EB%A7%8C%ED%85%90%EB%B0%94%EB%9D%BC%20%EC%82%B4%EB%A1%9C%EB%A9%94"
+  },
+  {
+    "id": "",
+    "name": "소피아 발렌타인",
+    "debutYear": 2023,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@Sophia_Valentine",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@idios_official",
+        "sharedCount": 7,
+        "likelySharedChannel": true
+      },
+      {
+        "url": "https://www.youtube.com/@Sophia_Valentine",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%86%8C%ED%94%BC%EC%95%84%20%EB%B0%9C%EB%A0%8C%ED%83%80%EC%9D%B8"
+  },
+  {
+    "id": "",
+    "name": "시시도 아카리",
+    "debutYear": 2023,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@ShishidoAkari",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@idios_official",
+        "sharedCount": 7,
+        "likelySharedChannel": true
+      },
+      {
+        "url": "https://www.youtube.com/@ShishidoAkari",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%8B%9C%EC%8B%9C%EB%8F%84%20%EC%95%84%EC%B9%B4%EB%A6%AC"
+  },
+  {
+    "id": "",
+    "name": "시오리하 루리",
+    "debutYear": 2023,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@ShiorihaRuri",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@ShiorihaRuri",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%8B%9C%EC%98%A4%EB%A6%AC%ED%95%98%20%EB%A3%A8%EB%A6%AC"
+  },
+  {
+    "id": "",
+    "name": "이가라시 리카",
+    "debutYear": 2023,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@IgarashiRika",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@idios_official",
+        "sharedCount": 7,
+        "likelySharedChannel": true
+      },
+      {
+        "url": "https://www.youtube.com/@IgarashiRika",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%9D%B4%EA%B0%80%EB%9D%BC%EC%8B%9C%20%EB%A6%AC%EC%B9%B4"
+  },
+  {
+    "id": "",
+    "name": "이시가미 노조미",
+    "debutYear": 2023,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@IshigamiNozomi",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@idios_official",
+        "sharedCount": 7,
+        "likelySharedChannel": true
+      },
+      {
+        "url": "https://www.youtube.com/@IshigamiNozomi",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%9D%B4%EC%8B%9C%EA%B0%80%EB%AF%B8%20%EB%85%B8%EC%A1%B0%EB%AF%B8"
+  },
+  {
+    "id": "",
+    "name": "카부라키 로코",
+    "debutYear": 2023,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@KaburakiRoco",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@idios_official",
+        "sharedCount": 7,
+        "likelySharedChannel": true
+      },
+      {
+        "url": "https://www.youtube.com/@KaburakiRoco",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%B9%B4%EB%B6%80%EB%9D%BC%ED%82%A4%20%EB%A1%9C%EC%BD%94"
+  },
+  {
+    "id": "",
+    "name": "코시미즈 토오루",
+    "debutYear": 2023,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@KoshimizuToru",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@idios_official",
+        "sharedCount": 7,
+        "likelySharedChannel": true
+      },
+      {
+        "url": "https://www.youtube.com/@KoshimizuToru",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%BD%94%EC%8B%9C%EB%AF%B8%EC%A6%88%20%ED%86%A0%EC%98%A4%EB%A3%A8"
+  },
+  {
+    "id": "",
+    "name": "쿠라모치 메루토",
+    "debutYear": 2023,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@KuramochiMeruto",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@idios_official",
+        "sharedCount": 7,
+        "likelySharedChannel": true
+      },
+      {
+        "url": "https://www.youtube.com/@KuramochiMeruto",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%BF%A0%EB%9D%BC%EB%AA%A8%EC%B9%98%20%EB%A9%94%EB%A3%A8%ED%86%A0"
+  },
+  {
+    "id": "",
+    "name": "타치츠테 토토",
+    "debutYear": 2023,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@TachitsuteToto",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@TachitsuteToto",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%ED%83%80%EC%B9%98%EC%B8%A0%ED%85%8C%20%ED%86%A0%ED%86%A0"
+  },
+  {
+    "id": "",
+    "name": "나나세 스즈나",
+    "debutYear": 2024,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@NanaseSuzuna",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@Speciale_nijisanji",
+        "sharedCount": 3,
+        "likelySharedChannel": true
+      },
+      {
+        "url": "https://www.youtube.com/@NanaseSuzuna",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EB%82%98%EB%82%98%EC%84%B8%20%EC%8A%A4%EC%A6%88%EB%82%98"
+  },
+  {
+    "id": "",
+    "name": "사오토메 베리",
+    "debutYear": 2024,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@Saotomeberry",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@Speciale_nijisanji",
+        "sharedCount": 3,
+        "likelySharedChannel": true
+      },
+      {
+        "url": "https://www.youtube.com/@Saotomeberry",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%82%AC%EC%98%A4%ED%86%A0%EB%A9%94%20%EB%B2%A0%EB%A6%AC"
+  },
+  {
+    "id": "",
+    "name": "시가 리코",
+    "debutYear": 2024,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@ShigaRiko",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@ShigaRiko",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      },
+      {
+        "url": "https://www.youtube.com/@ayakaki",
+        "sharedCount": 4,
+        "likelySharedChannel": true
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%8B%9C%EA%B0%80%20%EB%A6%AC%EC%BD%94"
+  },
+  {
+    "id": "",
+    "name": "코즈에 모네",
+    "debutYear": 2024,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@KozueMone",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@KozueMone",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      },
+      {
+        "url": "https://www.youtube.com/@ayakaki",
+        "sharedCount": 4,
+        "likelySharedChannel": true
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%BD%94%EC%A6%88%EC%97%90%20%EB%AA%A8%EB%84%A4"
+  },
+  {
+    "id": "",
+    "name": "키라라 타마코",
+    "debutYear": 2024,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@KiraraTamako",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@Speciale_nijisanji",
+        "sharedCount": 3,
+        "likelySharedChannel": true
+      },
+      {
+        "url": "https://www.youtube.com/@KiraraTamako",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%ED%82%A4%EB%9D%BC%EB%9D%BC%20%ED%83%80%EB%A7%88%EC%BD%94"
+  },
+  {
+    "id": "",
+    "name": "키사라(니지산지)",
+    "debutYear": 2024,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@Kisara_nijisanji",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@Kisara_nijisanji",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      },
+      {
+        "url": "https://www.youtube.com/@ayakaki",
+        "sharedCount": 4,
+        "likelySharedChannel": true
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%ED%82%A4%EC%82%AC%EB%9D%BC(%EB%8B%88%EC%A7%80%EC%82%B0%EC%A7%80)"
+  },
+  {
+    "id": "",
+    "name": "타마노이 나나",
+    "debutYear": 2024,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@TamanoiNana",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@TamanoiNana",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      },
+      {
+        "url": "https://www.youtube.com/@ayakaki",
+        "sharedCount": 4,
+        "likelySharedChannel": true
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%ED%83%80%EB%A7%88%EB%85%B8%EC%9D%B4%20%EB%82%98%EB%82%98"
+  },
+  {
+    "id": "",
+    "name": "네코야시키 미쿠",
+    "debutYear": 2025,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@nekoyashikimiku",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@nekoyashikimiku",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EB%84%A4%EC%BD%94%EC%95%BC%EC%8B%9C%ED%82%A4%20%EB%AF%B8%EC%BF%A0"
+  },
+  {
+    "id": "",
+    "name": "야규 시노",
+    "debutYear": 2025,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@yagyushino",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@yagyushino",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%95%BC%EA%B7%9C%20%EC%8B%9C%EB%85%B8"
+  },
+  {
+    "id": "",
+    "name": "토가와 노노하",
+    "debutYear": 2025,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@togawanonoha",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@togawanonoha",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%ED%86%A0%EA%B0%80%EC%99%80%20%EB%85%B8%EB%85%B8%ED%95%98"
+  },
+  {
+    "id": "",
+    "name": "레이나(니지산지)",
+    "debutYear": 2026,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@rei7_y4t4",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@rei7_y4t4",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EB%A0%88%EC%9D%B4%EB%82%98(%EB%8B%88%EC%A7%80%EC%82%B0%EC%A7%80)"
+  },
+  {
+    "id": "",
+    "name": "미나모 마도카",
+    "debutYear": 2026,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@MinamoMadoka",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@MinamoMadoka",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EB%AF%B8%EB%82%98%EB%AA%A8%20%EB%A7%88%EB%8F%84%EC%B9%B4"
+  },
+  {
+    "id": "",
+    "name": "미코가미 코토네",
+    "debutYear": 2026,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@mikogamikotone_y4t4",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@mikogamikotone_y4t4",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EB%AF%B8%EC%BD%94%EA%B0%80%EB%AF%B8%20%EC%BD%94%ED%86%A0%EB%84%A4"
+  },
+  {
+    "id": "",
+    "name": "센리 아유무",
+    "debutYear": 2026,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@senriayumu_y4t4",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@senriayumu_y4t4",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%84%BC%EB%A6%AC%20%EC%95%84%EC%9C%A0%EB%AC%B4"
+  },
+  {
+    "id": "",
+    "name": "시라사 아야네",
+    "debutYear": 2026,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@shirasaayane",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@shirasaayane",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%8B%9C%EB%9D%BC%EC%82%AC%20%EC%95%84%EC%95%BC%EB%84%A4"
+  },
+  {
+    "id": "",
+    "name": "코코나미 이루카",
+    "debutYear": 2026,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@kokonamiiruka_y4t4",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@kokonamiiruka_y4t4",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%EC%BD%94%EC%BD%94%EB%82%98%EB%AF%B8%20%EC%9D%B4%EB%A3%A8%EC%B9%B4"
+  },
+  {
+    "id": "",
+    "name": "포멜로 펀치",
+    "debutYear": 2026,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@pomelopunch",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@pomelopunch",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%ED%8F%AC%EB%A9%9C%EB%A1%9C%20%ED%8E%80%EC%B9%98"
+  },
+  {
+    "id": "",
+    "name": "푸린 라라 모드",
+    "debutYear": 2026,
+    "gender": "female",
+    "eligible": true,
+    "suggestedYoutubeUrl": "https://www.youtube.com/@purinlalamode",
+    "youtubeCandidates": [
+      {
+        "url": "https://www.youtube.com/@purinlalamode",
+        "sharedCount": 1,
+        "likelySharedChannel": false
+      }
+    ],
+    "participant": false,
+    "verified": false,
+    "sourceUrl": "https://namu.wiki/w/%ED%91%B8%EB%A6%B0%20%EB%9D%BC%EB%9D%BC%20%EB%AA%A8%EB%93%9C"
+  }
+]
