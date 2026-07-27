@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { currentVersion } from "../data/changelog";
+import packageJson from "../package.json";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -35,7 +35,7 @@ export default function RootLayout({
         </div>
 
         <footer className="border-t border-zinc-800 px-6 py-6 text-center text-sm text-zinc-500">
-          <span>Aranami Stats v{currentVersion}</span>
+          <span>Aranami Stats v{packageJson.version}</span>
 
           <span className="mx-2">·</span>
 
