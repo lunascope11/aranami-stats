@@ -1,3 +1,4 @@
+import HomeButton from "../HomeButton";
 import Link from "next/link";
 import { getAranamiMinecraftStats } from "../../../lib/aranami-minecraft";
 
@@ -27,13 +28,17 @@ export default async function AranamiConcurrentStatsPage() {
     <main className="min-h-screen bg-zinc-950 px-6 py-10 text-zinc-100">
       <div className="mx-auto max-w-6xl">
         <header className="mb-10">
-          <Link
-            href="/"
-            className="text-sm font-semibold text-violet-400 hover:text-violet-300"
-          >
-            ← あらなみマイクラ 통계로
-          </Link>
+          <div className="flex items-center justify-between">
+            <Link
+              href="/"
+              className="text-sm font-semibold text-violet-400 hover:text-violet-300"
+            >
+              ← あらなみマイクラ 통계로
+            </Link>
 
+            <HomeButton />
+          </div>
+          
           <p className="mt-6 text-sm font-semibold text-emerald-400">
             Concurrent Broadcast Statistics
           </p>

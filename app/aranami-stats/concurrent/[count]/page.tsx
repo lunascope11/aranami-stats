@@ -1,3 +1,4 @@
+import HomeButton from "../../HomeButton";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAranamiMinecraftStats } from "../../../../lib/aranami-minecraft";
@@ -54,12 +55,16 @@ export default async function ConcurrentCountDetailPage({
     <main className="min-h-screen bg-zinc-950 px-6 py-10 text-zinc-100">
       <div className="mx-auto max-w-6xl">
         <header className="mb-10">
-          <Link
-            href="/concurrent"
-            className="text-sm font-semibold text-violet-400 hover:text-violet-300"
-          >
-            ← 동시 방송 인원별 통계로
-          </Link>
+          <div className="flex items-center justify-between">
+            <Link
+              href="/concurrent"
+              className="text-sm font-semibold text-violet-400 hover:text-violet-300"
+            >
+              ← 동시 방송 인원별 통계로
+            </Link>
+
+            <HomeButton />
+          </div>
 
           <p className="mt-6 text-sm font-semibold text-emerald-400">
             Concurrent Group Detail

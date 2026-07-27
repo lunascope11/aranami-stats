@@ -1,3 +1,4 @@
+import HomeButton from "../../HomeButton";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAranamiMinecraftStats } from "../../../../lib/aranami-minecraft";
@@ -65,12 +66,16 @@ export default async function ContinuousCountDetailPage({
     <main className="min-h-screen bg-zinc-950 px-6 py-10 text-zinc-100">
       <div className="mx-auto max-w-6xl">
         <header className="mb-10">
-          <Link
-            href="continuous"
-            className="text-sm font-semibold text-violet-400 hover:text-violet-300"
-          >
-            ← 동시 방송 연속 기록으로
-          </Link>
+          <div className="flex items-center justify-between">
+            <Link
+              href="continuous"
+              className="text-sm font-semibold text-violet-400 hover:text-violet-300"
+            >
+              ← 동시 방송 연속 기록으로
+            </Link>
+
+            <HomeButton />
+          </div>
 
           <p className="mt-6 text-sm font-semibold text-emerald-400">
             Continuous Concurrent Broadcast Detail
