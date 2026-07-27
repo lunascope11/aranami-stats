@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { currentVersion } from "../data/changelog";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -27,8 +29,23 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
-        {children}
+      <body>
+        <div className="min-h-screen">
+          {children}
+        </div>
+
+        <footer className="border-t border-zinc-800 px-6 py-6 text-center text-sm text-zinc-500">
+          <span>Aranami Stats v{currentVersion}</span>
+
+          <span className="mx-2">·</span>
+
+          <Link
+            href="/changelog"
+            className="transition hover:text-zinc-300"
+          >
+            업데이트 내역
+          </Link>
+        </footer>
       </body>
     </html>
   );
