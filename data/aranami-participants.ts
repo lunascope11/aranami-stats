@@ -253,10 +253,32 @@ export const aranamiParticipants: AranamiParticipant[] = [
     verified: true,
   },
   {
+    id: "kadoumikaru",
+    name: "蝸堂みかる",
+    youtubeUrl:
+      "https://www.youtube.com/@KadouMikaru",
+    debutYear: 2025,
+    gender: "female",
+    eligible: true,
+    participant: true,
+    verified: true,
+  },
+  {
     id: "togawanonoha",
     name: "十河ののは",
     youtubeUrl:
       "https://www.youtube.com/@togawanonoha",
+    debutYear: 2025,
+    gender: "female",
+    eligible: true,
+    participant: true,
+    verified: true,
+  },
+  {
+    id: "UC_a1ZYZ8ZTXpjg9xUY9sj8w",
+    name: "鈴原るる",
+    youtubeUrl:
+      "https://www.youtube.com/channel/UC_a1ZYZ8ZTXpjg9xUY9sj8w",
     debutYear: 2025,
     gender: "female",
     eligible: true,

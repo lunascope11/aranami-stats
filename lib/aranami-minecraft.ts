@@ -41,6 +41,9 @@ type VideosResponse = {
       actualStartTime?: string;
       actualEndTime?: string;
     };
+    contentDetails?: {
+      duration?: string;
+    };
   }>;
 };
 
@@ -265,6 +268,32 @@ function isAranamiMinecraftTitle(title: string): boolean {
     normalizedTitle.includes("minecraft");
 
   return hasAranami && hasMinecraft;
+}
+
+function parseYoutubeDuration(
+  duration?: string,
+): number | null {
+  if (!duration) {
+    return null;
+  }
+
+  const match = duration.match(
+    /^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/,
+  );
+
+  if (!match) {
+    return null;
+  }
+
+  const hours = Number(match[1] ?? 0);
+  const minutes = Number(match[2] ?? 0);
+  const seconds = Number(match[3] ?? 0);
+
+  return (
+    hours * 60 * 60 * 1000 +
+    minutes * 60 * 1000 +
+    seconds * 1000
+  );
 }
 
 /**
@@ -900,7 +929,7 @@ export async function getParticipantBroadcastsSinceStart(): Promise<
   const responses = await Promise.all(
     batches.map((batch) =>
       youtubeRequest<VideosResponse>("videos", {
-        part: "snippet,liveStreamingDetails",
+        part: "snippet,liveStreamingDetails,contentDetails",
         id: batch.join(","),
         maxResults: "50",
       }),
@@ -921,6 +950,11 @@ export async function getParticipantBroadcastsSinceStart(): Promise<
   const nowMs = Date.now();
 
   const streams: AranamiMinecraftStream[] = [];
+
+  let totalLiveDurationMs = 0;
+  let totalArchiveDurationMs = 0;
+  let archiveDurationCount = 0;
+
 
   for (const video of videos) {
     const startedAt =
@@ -951,6 +985,31 @@ export async function getParticipantBroadcastsSinceStart(): Promise<
       ? new Date(endedAt).getTime()
       : nowMs;
 
+    const archiveDurationMs =
+      parseYoutubeDuration(
+        video.contentDetails?.duration,
+      );
+
+    const liveDurationMs =
+      endMs - startMs;
+
+    if (archiveDurationMs !== null) {
+      const differenceMs =
+        archiveDurationMs - liveDurationMs;
+
+      console.log(
+        "[duration-debug]",
+        {
+          title: video.snippet.title,
+          channel:
+            video.snippet.channelTitle,
+          liveDurationMs,
+          archiveDurationMs,
+          differenceMs,
+        },
+      );
+    }
+
     if (startMs < ARANAMI_START_MS) {
       continue;
     }
@@ -961,6 +1020,57 @@ export async function getParticipantBroadcastsSinceStart(): Promise<
       endMs <= startMs
     ) {
       continue;
+    }
+
+    const isAranami =
+      isAranamiMinecraftTitle(
+        video.snippet.title,
+      );
+
+    if (isAranami) {
+      totalLiveDurationMs +=
+        liveDurationMs;
+
+      if (archiveDurationMs !== null) {
+        totalArchiveDurationMs +=
+          archiveDurationMs;
+
+        archiveDurationCount += 1;
+
+        const differenceMs =
+          archiveDurationMs -
+          liveDurationMs;
+
+        if (
+          Math.abs(differenceMs) >=
+          60 * 1000
+        ) {
+          console.log(
+            "[duration-debug]",
+            {
+              title:
+                video.snippet.title,
+              channel:
+                video.snippet.channelTitle,
+
+              liveMinutes:
+                liveDurationMs /
+                1000 /
+                60,
+
+              archiveMinutes:
+                archiveDurationMs /
+                1000 /
+                60,
+
+              differenceMinutes:
+                differenceMs /
+                1000 /
+                60,
+            },
+          );
+        }
+      }
     }
 
     const vtuberId =
@@ -983,12 +1093,40 @@ export async function getParticipantBroadcastsSinceStart(): Promise<
         video.snippet.channelTitle,
       startedAt,
       endedAt,
-      durationMs: endMs - startMs,
+      durationMs: liveDurationMs,
       isLive,
       youtubeUrl: `https://www.youtube.com/watch?v=${video.id}`,
     });
   }
+  if (process.env.NODE_ENV !== "production") {
+    console.log(
+      "[duration-debug-summary]",
+      {
+        archiveDurationCount,
 
+        totalLiveHours:
+          totalLiveDurationMs /
+          1000 /
+          60 /
+          60,
+
+        totalArchiveHours:
+          totalArchiveDurationMs /
+          1000 /
+          60 /
+          60,
+
+        differenceHours:
+          (
+            totalArchiveDurationMs -
+            totalLiveDurationMs
+          ) /
+          1000 /
+          60 /
+          60,
+      },
+    );
+  }
   return streams.sort(
     (a, b) =>
       new Date(a.startedAt).getTime() -

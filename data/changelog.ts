@@ -9,6 +9,17 @@ export type ChangelogEntry = {
 
 export const changelog: ChangelogEntry[] = [
   {
+    version: "0.1.4",
+    date: "2026-07-27",
+    title: "참가자 수정",
+    changes: [
+      "빠진 참가자 추가",
+      "잘못 포함된 참가자 정리",
+      "contentDetails.duration 추가",
+      "duration 비교용 디버그 로그",
+    ],
+  },
+  {
     version: "0.1.3",
     date: "2026-07-27",
     title: "사이트 안내사항 추가",
