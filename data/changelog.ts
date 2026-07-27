@@ -1,4 +1,4 @@
-export const currentVersion = "0.1.0";
+
 
 export type ChangelogEntry = {
   version: string;
